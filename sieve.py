@@ -1,6 +1,5 @@
 def primes(limit):
     all_numbers = [j for j in range(2, limit + 1)]
-    primes = []
 
     for j in range(2, limit):
         if j in all_numbers:
